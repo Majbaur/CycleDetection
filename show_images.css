@@ -29,6 +29,7 @@ body {
     min-width: 6rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    border-radius: 25px;
   }
   
   .button:hover {
@@ -92,8 +93,8 @@ body {
     font-size: 0.8rem;
     color: #666666;
     cursor: pointer;
-    width: 16rem;
-    height: 10rem;
+    width: 26rem;
+    height: 20rem;
     background: #fff;
     border: 0.1rem dashed #838388;
     border-radius: 0.4rem;
@@ -102,6 +103,7 @@ body {
     align-items: center;
     flex-direction: column;
     margin: 1rem 0 2rem 0;
+    border-radius: 100px;
   }
   
   .upload-box.dragover {
@@ -116,8 +118,8 @@ body {
   }
   
   .upload-box #image-preview {
-    max-width: 14rem;
-    max-height: 8rem;
+    max-width: 20rem;
+    max-height: 20rem;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
   }
   

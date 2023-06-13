@@ -39,11 +39,11 @@ var predResult = document.getElementById("pred-result");
 var model = undefined;
 
 //========================================================================
-// Main button events
+// Main button events      https://teachablemachine.withgoogle.com/models/wI-Qv_rOz/
 //========================================================================
 
 async function initialize() {
-  model = await tf.loadLayersModel("https://teachablemachine.withgoogle.com/models/o6oM8iM2G/model.json");
+  model = await tf.loadLayersModel("https://teachablemachine.withgoogle.com/models/wI-Qv_rOz/model.json");
   console.log(model);
 }
 
@@ -69,8 +69,11 @@ async function predict() {
   // console.log(prediction)
 
   let idx_to_label = {
-    0: "Tom",
-    1: "Jerry",
+    0: "Folding commuter bike",
+    1: "Road Bike",
+    2: "Rode comuter bike",
+    3: "XC-Cross Country bike",
+
     
   };
 
