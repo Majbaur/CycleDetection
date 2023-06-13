@@ -86,7 +86,7 @@ async function predict() {
 
   // console.log(maxx_idx)
 
-  predResult.innerHTML = "The name of the object is " + idx_to_label[maxx_idx];
+  predResult.innerHTML = "The name of the Cycle is " + idx_to_label[maxx_idx];
   show(predResult);
 }
 
