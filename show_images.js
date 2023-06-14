@@ -71,7 +71,7 @@ async function predict() {
   let idx_to_label = {
     0: "Folding commuter bike",
     1: "Road Bike",
-    2: "Rode comuter bike",
+    2: "Rode-comuter bike",
     3: "XC-Cross Country bike",
 
     
